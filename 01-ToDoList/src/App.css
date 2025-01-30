@@ -1,0 +1,49 @@
+.container {
+  border: 1px solid white;
+  border-radius: 15px;
+  background:radial-gradient(circle, black 20%, rgba(0, 0, 0, 0) 100%);
+  margin: 20px;
+  padding:20px;
+
+}
+
+h1{
+  text-align: center;
+  text-decoration:underline;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #737272;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+input {
+  margin: 0 5px;
+  padding: 7px;
+  border: 1px solid #817e7e;
+  border-radius: 5px;}
+
+
+button:hover {
+  background: #e20808db;
+}
+.add-button:hover{
+  background: #1d871d;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li.complete {
+  
+  background: #1d871d;
+}
